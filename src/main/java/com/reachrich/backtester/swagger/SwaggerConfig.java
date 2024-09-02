@@ -12,8 +12,8 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("My API")
-                        .version("1.0.0")
-                        .description("API documentation for my application"));
+                        .title("월클 백테스터 Reach rich 의 API 문서")
+                        .version("0.0.1")
+                        .description("월클 백테스터 Reach rich 의 API 문서"));
     }
 }
